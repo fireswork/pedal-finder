@@ -1,0 +1,66 @@
+# 依赖目录
+node_modules/
+jspm_packages/
+bower_components/
+
+# 构建输出
+dist/
+build/
+out/
+.next/
+.nuxt/
+.output/
+
+# 日志文件
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+lerna-debug.log*
+
+# 缓存目录
+.npm/
+.eslintcache
+.stylelintcache
+.rpt2_cache/
+.rts2_cache_cjs/
+.rts2_cache_es/
+.rts2_cache_umd/
+
+# IDE 和编辑器
+.idea/
+.vscode/
+*.swp
+*.swo
+.DS_Store
+*.sublime-project
+*.sublime-workspace
+.project
+.classpath
+.settings/
+
+# 操作系统文件
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# 测试覆盖率
+coverage/
+.nyc_output/
+
+# 临时文件
+tmp/
+temp/
+
+# 其他常见忽略项
+.lock-wscript
+.node_repl_history
+.yarn-integrity
+.cache/
+.parcel-cache/
+.serverless/
+.fusebox/
+.dynamodb/
+.tern-port
+.history/ 
