@@ -82,7 +82,7 @@ export default function ChatInterface() {
           {isOpen ? <X className="h-6 w-6" /> : <MessageSquare className="h-6 w-6" />}
         </button>
         {!isOpen && (
-          <span className="absolute -top-10 right-0 w-auto p-2 bg-zinc-800 text-white text-xs rounded-md shadow-lg opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+          <span className="absolute -top-10 right-0 w-[110px] p-2 bg-zinc-800 text-white text-xs rounded-md shadow-lg opacity-0 group-hover:opacity-100 transition-opacity duration-300">
             Ask about pedals
           </span>
         )}
